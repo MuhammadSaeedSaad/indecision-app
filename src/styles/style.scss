@@ -1,0 +1,10 @@
+// scss files use global namespace and the "settings" import is a proof
+@import './base/settings';
+@import './base/base';
+@import './base/container';
+@import './components/button';
+@import './components/header';
+@import './components/widget';
+@import './components/option';
+@import './components/add-option';
+@import './components/modal';

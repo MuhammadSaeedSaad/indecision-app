@@ -1,0 +1,40 @@
+// (vid 8.6)
+// big button
+.big-button {
+    background: $purple;
+    border: none;
+    border-bottom: 0.6rem solid darken($purple, 10%);   // sass reference functions (vid 8.6)
+    color: white;
+    font-weight: bold;
+    font-size: $l-size;
+    width: 100%;
+    margin-bottom: $m-size;
+    padding: 2.4rem;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .big-button {
+        margin-bottom: $xl-size;
+    }
+}
+
+.big-button:disabled {
+    opacity: 0.5;
+}
+
+// button
+.button {
+    background: $purple;
+    border: none;
+    border-bottom: 0.3 solid darken($purple, 10%);
+    color: white;
+    font-weight: 500;
+    padding: $s-size;
+}
+
+.button--link {     // BEM Modifier class of .button class (vid 8.6)
+    background: none;
+    border: none;
+    color: $off-white;
+    
+}
